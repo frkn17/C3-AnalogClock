@@ -100,7 +100,7 @@ var alarmControl = () => {
         name=(text.split('-'))[0];
         if(hour == date.getHours()){
             if(min == date.getMinutes()){
-               document.querySelector('#alarmMessage').textContent=`Time for ${name}. Or snooze the alarm for a minute`;
+               document.querySelector('#alarmMessage').textContent=`Time for ${name}.`;
                if(date.getSeconds() < 60){
                    (myAlarms.children[i]).style.backgroundColor='#26B94C';
                }
