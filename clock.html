@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div id="container">
+            <div id="clock">
+                <div id="nmb1" class="numbers">
+                            <span>1</span>
+                </div>
+                <div id="nmb2" class="numbers">
+                    <span>2</span>
+                </div>
+                <div id="nmb3" class="numbers">
+                    <span>3</span>
+                </div>
+                <div id="nmb4" class="numbers">
+                    <span>4</span>
+                </div>
+                <div id="nmb5" class="numbers">
+                    <span>5</span>
+                </div>
+                <div id="nmb6" class="numbers">
+                    <span>6</span>
+                </div>
+                <div id="nmb7" class="numbers">
+                    <span>7</span>
+                </div>
+                <div id="nmb8" class="numbers">
+                    <span>8</span>
+                </div>
+                <div id="nmb9" class="numbers">
+                    <span>9</span>
+                </div>
+                <div id="nmb10" class="numbers">
+                    <span>10</span>
+                </div>
+                <div id="nmb11" class="numbers">
+                    <span>11</span>
+                </div>
+                <div id="nmb12" class="numbers">
+                    <span>12</span>
+                </div>
+                <div id="clock-center">
+                    <div id="minute-hand"></div>
+                    <div id="hour-hand"></div>
+                    <div id="second"></div>
+                </div>
+                
+            </div>
+            <div id="setAlarm">
+                <div><p class="alarmHeader">SET ALARM</p></div>
+                <div>
+                    <span>Alarm Name:</span>
+                    <input type="text" id="alarmName">  
+                </div>
+                <div>
+                    <select id="hour">
+                    </select>
+                    <span>:</span>
+                    <select id="min"></select>
+                </div>
+                <a href="#" class="setAlarm" id="setAlarmBtn"><i class="fas fa-bell"></i>Set Alarm</a>
+                <a href="#" class="setAlarm" id="deleteAlarmBtn"><i class="fas fa-trash"></i>Delete All</a>
+            </div>
+            <div id="myAlarms">
+                <p class="alarmHeader">My Alarms</p>
+                <ul>
+    
+                </ul>
+            </div>
+        </div>
+        <div id="bottom">
+            <p id="alarmMessage"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
